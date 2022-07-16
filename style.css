@@ -76,10 +76,12 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
+    padding-left: 2rem;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    padding-left: 2rem;
 }
 
 .contact-info ul li,
@@ -103,7 +105,7 @@ body {
     padding-top: 1.5rem;
 }
 .skills ul li p {
-    padding: .4rem 0;
+    padding: .4rem 2rem .4rem;
     color: #d6dbdfaf;
     font-size: 18px;
     letter-spacing: 1px;
@@ -146,14 +148,23 @@ body {
     position: relative;
 }
 
+.awards-gap {
+    padding-left: 2rem;
+}
+
 .gap {
     padding-bottom: 2rem;
 }
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
-    line-height: 2rem;
+    line-height: 1.5rem;
     color: #F1F8FD;
+}
+
+.experience-gap {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .experience-contents,
@@ -177,7 +188,7 @@ body {
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
     letter-spacing: 1px;
