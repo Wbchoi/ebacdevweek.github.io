@@ -106,6 +106,7 @@ body {
 }
 .skills ul li p {
     padding: .4rem 2rem .4rem;
+    padding: .4rem 0;
     color: #d6dbdfaf;
     font-size: 18px;
     letter-spacing: 1px;
@@ -165,6 +166,8 @@ body {
 .experience-gap {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    line-height: 2rem;
+    color: #F1F8FD;
 }
 
 .experience-contents,
